@@ -26,7 +26,7 @@ class BishopBlackTest {
     public void whenWayC1ThenD2E3F4G5() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
         Cell[] result = bishopBlack.way(Cell.G5);
-        Cell[] expected = new Cell[]{Cell.D2, Cell.E3,Cell.F4,Cell.G5};
+        Cell[] expected = new Cell[]{Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         assertThat(result).isEqualTo(expected);
     }
 
